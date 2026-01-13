@@ -19,5 +19,5 @@
 }
 
 .input::placeholder {
-    
+    color: var(--neutral-text);
 }
