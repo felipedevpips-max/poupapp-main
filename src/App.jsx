@@ -4,6 +4,8 @@ import { Main } from "./components/Main";
 import { SearchInput } from "./components/SearchInput";
 import { Typography } from "./components/Typography";
 
+import Card from "./components/Card";
+
 function App() {
   return (
     <Container>
@@ -16,6 +18,12 @@ function App() {
             Veja como estão suas finanças hoje.
           </Typography>
         </div>
+        <section>
+          <Card>
+            <Card.Header>Orçamento diário disponivel:</Card.Header>
+            <Card.Body>R$200</Card.Body>
+          </Card>
+        </section>
       </Main>
     </Container>
   );
