@@ -10,6 +10,7 @@ import styles from './components/app.module.css'
 import Card from "./components/Card";
 import { SavingStatus } from "./components/SavingsStatus";
 import { Transactions } from "./components/Transactions";
+import { Myaccounts } from "./components/Myaccounts";
 
 function App() {
   return (
@@ -47,9 +48,9 @@ function App() {
           </Card>
 
           <Card>
-            <Card.Header>Progresso da meta financeira</Card.Header>
+            <Card.Header>Minhas Contas</Card.Header>
             <Card.Body>
-              10
+              <Myaccounts/>
             </Card.Body>
           </Card>
 
