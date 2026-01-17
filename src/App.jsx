@@ -9,6 +9,7 @@ import styles from './components/app.module.css'
 
 import Card from "./components/Card";
 import { SavingStatus } from "./components/SavingsStatus";
+import { Transactions } from "./components/Transactions";
 
 function App() {
   return (
@@ -48,7 +49,7 @@ function App() {
           <Card>
             <Card.Header>Progresso da meta financeira</Card.Header>
             <Card.Body>
-              <SavingStatus percent={40}/>
+              10
             </Card.Body>
           </Card>
 
