@@ -10,7 +10,9 @@ import styles from './components/app.module.css'
 import Card from "./components/Card";
 import { SavingStatus } from "./components/SavingsStatus";
 import { Transactions } from "./components/Transactions";
-import { Myaccounts } from "./components/Myaccounts";
+import { Accounts } from "./components/Accounts";
+
+
 
 function App() {
   return (
@@ -50,7 +52,7 @@ function App() {
           <Card>
             <Card.Header>Minhas Contas</Card.Header>
             <Card.Body>
-              <Myaccounts/>
+              <Accounts/>
             </Card.Body>
           </Card>
 
